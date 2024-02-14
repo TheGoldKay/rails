@@ -71,6 +71,8 @@ GEM
     parser (3.3.0.5)
       ast (~> 2.4.1)
       racc
+    puma (5.6.8)
+      nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.8)
     rack-test (2.1.0)
@@ -138,6 +140,7 @@ PLATFORMS
 
 DEPENDENCIES
   minitest (~> 5.15)
+  puma (~> 5.6, >= 5.6.8)
   rails (~> 5.0)
   rubocop (~> 0.80.0)
   ruby-lsp (~> 0.0.1)
